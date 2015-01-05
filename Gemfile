@@ -6,6 +6,4 @@ gem "arduino_ir_remote"
 
 
 gem "haml"
-gem "sass"
-gem "coffee-script"
 gem "thin"
