@@ -1,0 +1,17 @@
+h1{
+  font-color: black;
+  font-family: 'Poiret One', cursive;
+}
+
+button{
+  margin: 0 auto;
+}
+
+div.center{
+  width: device-width;
+  text-align: center;
+}
+
+.btn-large{
+  padding: 20px 90px;
+}

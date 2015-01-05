@@ -1,0 +1,23 @@
+!!!
+%html
+  %head
+    %title Home Automation 
+    %link(rel='stylesheet' href='css/bootstrap.min.css')
+    %link(rel='stylesheet' href='css/bootstrap-responsive.min.css')
+    %link(rel='stylesheet' href='css/main.css')
+    %meta(name="viewport" content="width=device-width, user-scalable=yes")
+    %link(rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Poiret+One')
+  %body
+    %header.header
+      %div.container
+        %h1 Home Automation
+
+    %div.container
+      =yield
+    %div.container
+      %div.center
+        %footer
+          Copyright 2015 @onodes
+    %script{:src => 'https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'}
+    %script{:src => '/js/bootstrap.min.js'}
+    

@@ -1,0 +1,24 @@
+%div.center
+  %h4 エアコン管理
+%form{:action => "/aircon", :method => "get"}
+  %div.center
+    %button.btn.btn-large.btn-warning{:name => "status", :value => "warm_on"}
+      %i.icon-chevron-up.icon-white
+      暖房
+  %div.center
+    %button.btn.btn-large.btn-info{:name => "status", :value => "cool_on"}
+      %i.icon-chevron-down.icon-white
+      冷房
+  %div.center
+    %button.btn.btn-large.btn-inverse{:name => "status", :value => "aircon_off"}
+      %i.icon-off.icon-white 
+      停止
+
+%div.center
+  %h4 Raspberry Pi管理
+
+%form{:action => "/pi", :method => "get"}
+  %div.center
+    %button.btn.btn-large.btn-default{:name => "status", :value => "dlna_restart"}
+      %i.icon-refresh.icon-black
+      DLNA Reload
